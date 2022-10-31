@@ -29,3 +29,7 @@ okay made it
 now i have 2 x read mes and 2 x .gitignores
 always get lost between yarn and npm for managing projects
 using npm
+create components
+install axios in react project folder
+import axios
+CORS ERROR
