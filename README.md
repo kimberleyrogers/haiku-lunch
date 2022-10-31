@@ -20,3 +20,12 @@ INSERT INTO haiku (first_line, second_line, third_line, subject) VALUES ();
 create a server.py
 create a virtual environment
 create a requirement.txt file
+checked no of records in table, generated random number and pulled random record from table
+
+##### create a react front end
+
+never remember where to create!
+okay made it
+now i have 2 x read mes and 2 x .gitignores
+always get lost between yarn and npm for managing projects
+using npm
