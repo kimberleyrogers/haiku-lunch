@@ -1,38 +1,39 @@
+@font-face {
+  font-family: "handwriting";
+  src: url("../fonts/LaBelleAurore-Regular.ttf") format("truetype");
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: flex-start;
+  gap: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.header-btn {
+  margin: 40px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#haiku-container {
+  margin: 60px;
+}
+
+.haiku-line {
+  font-style: italic;
+  font-weight: 800;
+  font-family: "handwriting";
+  font-size: 40px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+#footer-name {
+  margin: 40px;
 }

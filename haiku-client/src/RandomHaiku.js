@@ -24,10 +24,10 @@ export function RandomHaiku() {
   
 
     return (
-        <div>
-            <p>{haiku_line_one}</p>
-            <p>{haiku_line_two}</p>
-            <p>{haiku_line_three}</p>
+        <div id="haiku-container">
+            <p className="haiku-line">"{haiku_line_one}</p>
+            <p className="haiku-line">{haiku_line_two}</p>
+            <p className="haiku-line">{haiku_line_three}"</p>
         </div>
     )
 

@@ -1,7 +1,7 @@
 export function Footer() {
     return (
-        <div>
-            <p>this is the footer</p>
+        <div className="footer-container">
+            <p id="footer-name">Kimberley Rogers 2022</p>
         </div>
     )
 }

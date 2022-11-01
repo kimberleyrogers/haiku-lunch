@@ -29,7 +29,6 @@ def home():
     # add keys from column names to make content more readable
     dict_random_haiku = []
     for record in random_haiku:
-        print(record)
         dict_random_haiku.append(dict(record))
 
     # return
