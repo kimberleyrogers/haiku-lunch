@@ -9,9 +9,9 @@ On 31.10.2022 I set a 2 hour website challenge for myself. The aim was to create
 I'll track my progress here and continue to return for 2 hour sessions whenever I have the time!
 
 ## what did I learn? 
-The notes in italic are notes for me about my progress or things I mulled over.
+The notes in italic are about my progress or things I mulled over.
 
-### PROGRESS! DAY 1 - 31/10/2022
+### PROGRESS! SESSION 1 - 31/10/2022
 
 #### initial creation
 
@@ -46,7 +46,7 @@ The notes in italic are notes for me about my progress or things I mulled over.
 
 * Pushed to GitHub along the way, the basic website exists!
 
-### PROGRESS! DAY 2 - 01/11/2022
+### PROGRESS! SESSION 2 - 01/11/2022
 
 ### front end - structure
 
@@ -66,11 +66,16 @@ The notes in italic are notes for me about my progress or things I mulled over.
 * Updated the FavIcon logo to a donut... fitting.
 * Attempting to randomise the background colour of my site. Found a guide here: https://www.geeksforgeeks.org/how-to-generate-random-colors-by-using-react-hooks/ 
 * *Invalid hook call error, I'd returned the wrong function. Further errors, I watched Net Ninja to help me resolve - https://www.youtube.com/watch?v=CWEOYFzgOJs*
-* *Spent time playing around with the colour, faced lots of quirkly issues*
+* *Spent time playing around with the colour, faced lots of quirky issues*
 
 #### what else?
 
 * Did not push to GitHub after creating individual features today, got in too deep.
 
 
-### NEXT TIME: deploy the site
+### NEXT TIME: CSS, some functionality and deploy the site
+ * tidy up readmefiles and .gitignore files
+ * home button should radomise haiku
+ * push to GitHub more regularly
+ * Add about content
+ * deploy site and DB
