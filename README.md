@@ -84,4 +84,7 @@ The notes in italic are about my progress or things I mulled over.
 
 ### front end react functionality
 * trying to fix the 'one more bite' button so it always reloads the haiku - answer, useEffect had [] at the end to prevent rerun whenever the button was clicked, which is what I wanted.
+* randomised the background colour on content change, used a palette from coolours.
 
+#### what else?
+* time was cut short and randomising haiku stopped working, can't understand why. There was a 1 minute period where both background and haiku were randomised.
