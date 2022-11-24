@@ -79,3 +79,9 @@ The notes in italic are about my progress or things I mulled over.
  * push to GitHub more regularly
  * Add about content
  * deploy site and DB
+
+### PROGRESS! SESSION 3 - 24/11/2022
+
+### front end react functionality
+* trying to fix the 'one more bite' button so it always reloads the haiku - answer, useEffect had [] at the end to prevent rerun whenever the button was clicked, which is what I wanted.
+

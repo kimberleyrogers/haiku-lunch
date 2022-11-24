@@ -7,9 +7,10 @@ import { About } from "./About";
 export function MainContainer(props) {
 
     let mainContent = props.mainContent;
+    console.log('main content is....' + props.mainContent)
 
     if(mainContent === 'haiku') {
-        // console.log('haiku')
+        console.log('haiku')
         return (
             <RandomHaiku />
         )

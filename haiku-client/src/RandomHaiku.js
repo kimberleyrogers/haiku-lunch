@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 
 
 export function RandomHaiku() {
-
+    console.log('random haiku called')
     const [haiku_line_one, setHaikuOne] = useState("...")
     const [haiku_line_two, setHaikuTwo] = useState("...")
     const [haiku_line_three, setHaikuThree] = useState("...")
@@ -20,7 +20,7 @@ export function RandomHaiku() {
 
     }
     fetchHaiku();
-    }, [])
+    })
   
 
     return (

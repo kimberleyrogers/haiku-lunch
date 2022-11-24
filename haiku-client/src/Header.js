@@ -3,11 +3,17 @@ export function Header(props) {
     // need a function that handles the button clicks and changes state
     const setMainContent = props.setMainContent;
     const generateColour = props.generateColour;
+    const changeBackground = props.changeBackground
     
     const HandleClick = (e) => {
+        // if main content is already haiku and e.target.id is also haiku... reload the page
+        // otherwise act as normal
+
         console.log('handle click ' + e.target.id)
         setMainContent(e.target.id);
-        generateColour();
+        // if main content is already
+        changeBackground();
+
 
     }
 

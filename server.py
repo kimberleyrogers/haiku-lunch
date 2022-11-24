@@ -24,8 +24,10 @@ def home():
 
     # pull that record from the db table
     cur.execute("SELECT * FROM haiku WHERE id = %s", [rand_num])
+    # cur.execute("SELECT * FROM haiku WHERE subject LIKE '%the%' ")
     random_haiku = cur.fetchall()
-
+    print(random_haiku)
+ 
     # add keys from column names to make content more readable
     dict_random_haiku = []
     for record in random_haiku:
@@ -36,7 +38,7 @@ def home():
 
 @app.route("/about")
 def about():
-    # to be decided - is this a separate page? how to generate using reaact
+    # to be decided - is this a separate page? how to generate using react
     return "About page"
 
 app.run(debug=True)
